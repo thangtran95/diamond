@@ -15,8 +15,9 @@ function Helper(){
             dots: false,
             infinite: true,
             speed: 900,
-            // prevArrow: '<button class="fa fa-angle-left"></button>',
-            // nextArrow: '<button class="fa fa-angle-right"></button>',
+            fade: true,
+            prevArrow: '<button class="fa fa-angle-left"></button>',
+            nextArrow: '<button class="fa fa-angle-right"></button>',
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
@@ -56,11 +57,11 @@ function Helper(){
 
         $(".regular2").not('slick-initialized').slick({
             dots: false,
-            infinite: false,
+            infinite: true,
             speed: 900,
             prevArrow: '<button class="fa fa-angle-left"></button>',
             nextArrow: '<button class="fa fa-angle-right"></button>',
-            slidesToShow: 1,
+            slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
@@ -68,21 +69,21 @@ function Helper(){
             {
                 breakpoint: 1199,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll:1
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll:1
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
